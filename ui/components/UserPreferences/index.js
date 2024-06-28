@@ -457,7 +457,7 @@ const UserPreference = (props) => {
                         <Typography
                           variant="body1"
                           className={props.classes.hideScrollbar}
-                          style={{ marginRight: '20px' }}
+                          style={{ marginRight: '20px', textWrap: 'wrap' }}
                         >
                           {provider}
                         </Typography>
